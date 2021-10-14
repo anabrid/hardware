@@ -35,7 +35,7 @@ must be installed for your Arduino IDE before compiling the source.
        run (see below) and will automatically start when the logger has been
        armed before starting the single run. After completing the single 
        run, the logger is disarmed.
-* channels=<value>: Set the number of analog channels to be logged. The value
+* channels=value: Set the number of analog channels to be logged. The value
        can range between 1 and 4.
 * disable: Disable the hybrid controller. This is the normal startup mode;
            THE ANALOG THING will work as a standalone analog computer when
@@ -46,17 +46,17 @@ must be installed for your Arduino IDE before compiling the source.
 * halt: Put THE ANALOG THING into HALT-mode.
 * help: Print a short help text.
 * ic: Set THE ANALOG THING to IC-mode.
-* ictime=<value>: Set the IC-time to <value> milliseconds. This is necessary
+* ictime=value: Set the IC-time to value milliseconds. This is necessary
                   for any single or repetitive run. Typically the duration 
                   of IC-mode is a few milliseconds. (If there are any 
                   integrators in an analog program with their time scale 
                   factor set to SLOW, the IC-time should be high enough so 
                   that these integrators can settle to the selected initial
                   condition.)
-* interval=<value>: Set the sampling interval for the data logger to 
-                    <value> milliseconds.
+* interval=value: Set the sampling interval for the data logger to 
+                    value milliseconds.
 * op: Set THE ANALOG THING to OP-mode.
-* optime=<value>: Set the OP-time to <value> milliseconds. 
+* optime=value: Set the OP-time to value milliseconds. 
 * rep: Start repetitive operation. THE ANALOG THING will from now on cycle
        between IC and OP with the respective times set by the ictime and 
        optime commands. Repetitive operation is ended when the computer 
