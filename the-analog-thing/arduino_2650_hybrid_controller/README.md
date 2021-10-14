@@ -7,6 +7,8 @@ external computer or microcontroller to take control of the analog computer.
 It also has four level shifters so that up to four analog values can be 
 read out by an attached digital computer. 
 
+![hc_setup](hc_setup.jpg)
+
 ## Connections required
 The required hardware consists of only a few wires to connect the HYBRID
 port with the attached microcontroller:
