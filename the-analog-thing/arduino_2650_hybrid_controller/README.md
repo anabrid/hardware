@@ -24,6 +24,8 @@ port with the attached microcontroller:
 |14        |MOP               |D3         |
 |16        |MIC               |D4         |
 
+![arduino_hc](arduino_hc.jpg)
+
 ## Software
 The source for this little hybrid controller can be found in 
 [simple_hybrid_controller.ino](simple_hybrid_controller/simple_hybrid_controller.ino). 
