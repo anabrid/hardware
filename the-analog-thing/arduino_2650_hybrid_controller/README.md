@@ -86,3 +86,9 @@ run
 
 This will print the AD converted values during the single run. These can then
 be copied to a file (by copy/paste) and plotted with gnuplot or the like.
+
+The analog program shown in the picture at the beginning is a 
+[Hindmarsh-Rose model](https://analogparadigm.com/downloads/alpaca_28.pdf)
+of a bursting and spiking neuron. The result of a run with the above settings
+using gnuplot to plot the raw data looks like this:
+![hindmarsh_rose_x](hindmarsh_rose_x.jpg)
