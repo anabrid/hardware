@@ -45,7 +45,7 @@ must be installed for your Arduino IDE before compiling the source.
            THE ANALOG THING will work as a standalone analog computer when
            the hybrid port is disabled.
 * enable: Enable the hybrid controller. In this case, THE ANALOG THING is
-          is under control of the attached microcontroller and the mode 
+          under control of the attached microcontroller and the mode 
           switch is disabled.
 * halt: Put THE ANALOG THING into HALT-mode.
 * help: Print a short help text.
