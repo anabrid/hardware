@@ -6,11 +6,12 @@
  *  D2: ENABLE          Setting this to 0 enables hybrid mode, i.e. overrides the on-board
  *                      control logic of THE ANALOG THING. If set to 1, THE ANALOG THING
  *                      works as a stand-alone analog computer.
- *  D3: MIC             This controls the IC-control line of THE ANALOG THING.
- *  D4: MOP             This controls the OP-control line of THE ANALOG THING.
+ *  D4: MIC             This controls the IC-control line of THE ANALOG THING.
+ *  D3: MOP             This controls the OP-control line of THE ANALOG THING.
  *  A0/1/2/3: x/y/z/u   These are the level shifted output lines of THE ANALOG THING.
  *  
  *  13.10.2021  B. Ulmann Initial implementation
+ *  10.03.2025  B. Ulmann MIC and MOP were swapped
  */
 
 #include <TimerThree.h>
@@ -26,8 +27,8 @@
 #define STRING_LENGTH       81
 #define SHORT_STRING_LENGTH 41
 #define ENABLE              2         // Hybrid enable control line
-#define MIC                 3         // MIC control line
-#define MOP                 4         // MOP control line
+#define MIC                 4         // MIC control line
+#define MOP                 3         // MOP control line
 #define IC                  0         // Mode IC
 #define OP                  1         // Mode OP
 #define HALT                2         // Mode HALT
